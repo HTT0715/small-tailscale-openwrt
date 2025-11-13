@@ -22,7 +22,7 @@ touch "$TMP_VALID_MIRRORS"
 if [ "$GITHUB_DIRECT" = "true" ]; then
     CUSTOM_PROXY_URL=""
 else
-    CUSTOM_PROXY_URL="https://ghproxy.ch3ng.top/"
+    CUSTOM_PROXY_URL="https://ghproxy.05160715.xyz/"
 fi
 
 

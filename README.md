@@ -42,7 +42,7 @@
 ```bash
 # 代理版
  rm -rf /etc/tailscale /tmp/tailscale-use-direct /tmp/install.sh
- URL="https://ghproxy.ch3ng.top/https://github.com/CH3NGYZ/small-tailscale-openwrt/raw/refs/heads/main/install.sh"
+ URL="https://ghproxy.05160715.xyz/https://github.com/HTT0715/small-tailscale-openwrt/blob/main/install.sh"
  (command -v curl >/dev/null && curl -fSL "$URL" -o /tmp/install.sh || wget "$URL" -O /tmp/install.sh) || { echo 下载失败; exit 1; }
  sh /tmp/install.sh || { echo 执行失败; exit 1; }
   
@@ -54,7 +54,7 @@
 # 直连版
  rm -rf /etc/tailscale /tmp/install.sh
  touch /tmp/tailscale-use-direct
- URL="https://github.com/CH3NGYZ/small-tailscale-openwrt/raw/refs/heads/main/install.sh"
+ URL="https://github.com/HTT0715/small-tailscale-openwrt/blob/main/install.sh"
  (command -v curl >/dev/null && curl -fSL "$URL" -o /tmp/install.sh || wget "$URL" -O /tmp/install.sh) || { echo 下载失败; exit 1; }
  sh /tmp/install.sh || { echo 执行失败; exit 1; }
   

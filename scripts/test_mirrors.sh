@@ -8,7 +8,7 @@ if [ "$GITHUB_DIRECT" = "true" ]; then
     log_info "🌐  不测速代理池..."
     return 0
 else
-    CUSTOM_PROXY_URL="https://ghproxy.ch3ng.top/"
+    CUSTOM_PROXY_URL="https://ghproxy.05160715.xyz/"
 fi
 
 TIME_OUT=10
@@ -16,7 +16,7 @@ BIN_NAME="tailscaled-linux-amd64"
 SUM_NAME="SHA256SUMS.txt"
 BIN_PATH="/tmp/$BIN_NAME"
 SUM_PATH="/tmp/$SUM_NAME"
-MIRROR_FILE_URL="CH3NGYZ/test-github-proxies/raw/refs/heads/main/proxies.txt"
+MIRROR_FILE_URL="HTT0715/test-github-proxies/blob/main/proxies.txt"
 SUM_URL="CH3NGYZ/small-tailscale-openwrt/releases/latest/download/$SUM_NAME"
 BIN_URL="CH3NGYZ/small-tailscale-openwrt/releases/latest/download/$BIN_NAME"
 

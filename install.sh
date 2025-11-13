@@ -13,7 +13,7 @@ if [ -f /tmp/tailscale-use-direct ]; then
 else
     echo "GITHUB_DIRECT=false" > "$INST_CONF"
     GITHUB_DIRECT=false
-    CUSTOM_PROXY_URL="https://ghproxy.ch3ng.top/"
+    CUSTOM_PROXY_URL="https://ghproxy.05160715.xyz/"
 fi
 
 SCRIPTS_TGZ_URL="CH3NGYZ/small-tailscale-openwrt/raw/refs/heads/main/tailscale-openwrt-scripts.tar.gz"
